@@ -1,4 +1,4 @@
-# natural_language_processing
+# BWNLTK
 Billy Wu's natural language processing kit 
 
 Using Google's word2vec algorithm, the BWNLTK will construct a variety of the state of art NLP models. The current tool kit will include a word2vec model constructor, an single word sentiment prediction model, a key word suggestion model, a sentence chunking engine, a CRF based NER engine, and eventually an actionability detection system.
