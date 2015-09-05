@@ -4,12 +4,7 @@
 Using Google's word2vec algorithm, the BWNLTK will construct a variety of the state of art NLP models. The current tool kit will include a word2vec model constructor, an single word sentiment prediction model, a key word suggestion model, a sentence chunking engine, a CRF based NER engine, and eventually an actionability detection system.
 
 ### I.   Word2vec Model Constructor
-..*  a. training data includes the WMT13 news data. Available languages will include English, Spanish, French, Russian, and German.
-..*  b. the script will include a preprocess method and a model trainer with the following parameters:
-    i.   vector dimension: 300
-    ii.  window size for cbow/sg: 10
-    iii. number of threads: 4
-    iv.  minimum number of words appearance: 5
+The training data includes the WMT13 news data. Available languages will include English, Spanish, French, Russian, and German. The script will include a preprocess method and a model trainer with the following parameters: the vector dimension being 300, the window size for cbow/sg being 10, the number of threads being 4, and the minimum number of words appearance being 5
 ### II.  Single Words Sentiment Prediction System
 ..*  a. training set includes a list of words and their corresponding sentiments
 ..*  b. a word2vec model produced by the word2vec model constructor 
